@@ -1,6 +1,6 @@
 
 
-process.env.MLAB_URI = 'mongodb://acloudfan:acloudfan@ds035766.mlab.com:35766/acmetravel';
+process.env.MLAB_URI = 'mongodb://*:*@ds035766.mlab.com:35766/acmetravel';
 
 var user = require('./db/user')
 
